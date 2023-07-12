@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(121, 201, 121);
+    margin: auto;
+    width: auto;
+
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    min-width: 320px;
+    max-width: 1000px;
+    margin:auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.inicial{
+  background-color: rgb(61, 163, 74); 
+  box-shadow:inset 1px 1px 100px rgb(15, 75, 15);
+  margin: auto;
+  width: auto;
+  border-radius: 0px;
+}
+
+.inicial a:hover{
+    background-color: rgb(72, 158, 72);
+    color: rgb(32, 54, 32);
+}
+
+.iniciaal{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+.aa{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 9px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition-duration: .3s;
+}
+
+.pintar{
+    color: rgb(34, 105, 34);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    font-family:'IDroid';
+    color: rgb(34, 105, 34);
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}     
+
+div{
+    text-align: center;
+}
+
+section > .sombra{
+    box-shadow: 1px 1px 1px 1px white;
+    background-color: rgb(125, 228, 125);
+}
+
+mark{
+    color: rgb(56, 199, 56);
+}
+
+a.externo::after{
+    content:'\1F517';
+}
+
+a.externo{
+    background-color: rgb(125, 228, 125);
+    text-decoration: underline;
+}
+
+footer {
+    color: white;
+    margin: auto;
+    width: auto;
+    background-color: rgb(41, 112, 50); 
+}
+
+footer > a{
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: greenyellow;
+}
+
+div.video{
+    background-color: green;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top:5%;
+    left:5%;
+    width: 90%;
+    height: 89%;
+}
+
+aside{
+    background-color: rgb(129, 231, 134);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.397);
+    text-align: center;
+}
+
+aside > h3{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    margin: -10px -10px 0px;
+}
+
+aside > ul{
+    list-style-type: '\2714\00A0\00A0';
+    columns: 2;
+}
+
+.rodape{
+    text-align: center;
+}
