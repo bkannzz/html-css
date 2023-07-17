@@ -1,10 +1,13 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     background-color: rgb(121, 201, 121);
-    margin: auto;
     width: auto;
-
 }
 
 header{
@@ -86,17 +89,6 @@ a.externo{
     text-decoration: underline;
 }
 
-footer {
-    color: white;
-    margin: auto;
-    width: auto;
-    background-color: rgb(41, 112, 50); 
-}
-
-footer > a{
-    color: white;
-}
-
 footer a:hover{
     text-decoration: underline;
     color: greenyellow;
@@ -140,4 +132,8 @@ aside > ul{
 
 .rodape{
     text-align: center;
+    background-color: green;
+    color: white;
+    margin: auto;
+    width: auto;
 }
