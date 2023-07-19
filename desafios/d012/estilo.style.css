@@ -19,6 +19,7 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 3vw;
 }
 
 header > p{
@@ -38,7 +39,9 @@ header a:hover, footer a:hover{
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;  
-    line-height: 30px;
+    padding-left: 30px;
+    line-height: 2em;
+    font-size: 3vw;
 }
 
 section.normal{
@@ -47,7 +50,8 @@ section.normal{
 }
 
 section.imagem > p{
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgb(49, 49, 49);
 }
 
